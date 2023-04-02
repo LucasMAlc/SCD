@@ -35,6 +35,7 @@ class Filosofo:
             time.sleep(3)
             self.contador_refeicoes += 1 # contabiliza o número de refeições realizadas
             print(f'{self.nome} terminou de comer.')
+            print('-------------------------------------------------------------------')
 
     def pensar(self):
         print(f'{self.nome} esta pensando agora.')
