@@ -41,7 +41,7 @@ class Filosofo:
         time.sleep(3)
 
     def jantar(self):
-        while self.contador_refeicoes < 3: # realiza até três refeições
+        while self.contador_refeicoes < 3: 
             self.pensar() # o filósofo pensa antes de tentar pegar os hashis
             with self.monitor: # adquire o monitor para sincronização
                 self.pegar_hashi_esquerda()
@@ -55,12 +55,10 @@ if __name__ == '__main__':
 
     # cria uma lista com o número de refeições realizadas por cada filósofo
     contador_refeicoes = [0 for _ in range(5)] 
-
-    # cria um objeto Condition que será usado como monitor
-    monitor = threading.Condition() 
-
     # cria uma lista com os nomes dos filósofos
     filosofos_nome = ["Rafael", "Michelangelo", "Leonardo", "Donatello", "Splinter"] 
+
+    monitor = threading.Condition()  
 
     filosofos = [Filosofo(filosofos_nome[i], hashis[i], hashis[(i+1)%5], contador_refeicoes[i], monitor) for i in range(5)]
     threads = [threading.Thread(target=filosofo.jantar) for filosofo in filosofos]
