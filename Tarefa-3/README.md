@@ -1,7 +1,7 @@
 # Tarefa 3 da disciplina de Sistemas Concorrentes e Distribuídos
     Nesse exercício é utilizado Pyro4 para RMI em python.
 
-Para roda:
+Para rodar:
 
 pip install Pyro4
 
