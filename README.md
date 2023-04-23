@@ -1,2 +1,2 @@
 # SCD
- Código da matéria Sistemas Concorrente e Distribuídos
+ Código da matéria Sistemas Concorrentes e Distribuídos
