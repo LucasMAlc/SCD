@@ -13,6 +13,7 @@ python -m Pyro4.naming
 
 python server.py
 
+
 ## n terminais:
 
 python client.py

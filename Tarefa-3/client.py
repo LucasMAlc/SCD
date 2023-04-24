@@ -13,12 +13,16 @@ def start():
         opr = input("Qual é a operação? \n 1 - Adição \n 2 - Subtração \n 3 - Multiplicação \n 4 - Divisão \n")
 
         if opr == '1':
+            print("Resultado:")
             print(server.add(num1, num2, name))
         elif opr == '2':
+            print("Resultado:")
             print(server.sub(num1, num2, name))
         elif opr == '3':
+            print("Resultado:")
             print(server.mult(num1, num2, name))
         elif opr == '4':
+            print("Resultado:")
             print(server.div(num1, num2, name))
         else: 
             print("Opereção inválida")
