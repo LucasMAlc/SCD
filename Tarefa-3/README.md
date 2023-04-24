@@ -16,3 +16,10 @@ python server.py
 ## n terminais:
 
 python client.py
+
+-informe o nome
+-digite o primeiro valor
+-digite o segundo valor
+-escolha a operação
+
+-caso queira continuar digite 'S' caso não 'N'
