@@ -1,26 +1,26 @@
 # Tarefa 3 da disciplina de Sistemas Concorrentes e Distribuídos
     Nesse exercício é utilizado Pyro4 para RMI em python.
 
-Para rodar:
+    Para rodar:
 
-pip install Pyro4
+    pip install Pyro4
 
-## terminal 1:
+    ## terminal 1:
 
-python -m Pyro4.naming
+    python -m Pyro4.naming
 
-## terminal 2:
+    ## terminal 2:
 
-python server.py
+    python server.py
 
 
-## n terminais:
+    ## n terminais:
 
-python client.py
+    python client.py
 
--informe o nome
--digite o primeiro valor
--digite o segundo valor
--escolha a operação
+    -informe o nome
+    -digite o primeiro valor
+    -digite o segundo valor
+    -escolha a operação
 
--caso queira continuar digite 'S' caso não 'N'
+    -caso queira continuar digite 'S' caso não 'N'
